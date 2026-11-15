@@ -1,7 +1,11 @@
 # btc-cent-forecast-01 — Bitcoin 4-hour-ahead price forecast
 
-Entry for make.fun's "Forecast Bitcoin's price 4 hours ahead, 12 times over
-48 hours" ($250). One program, `main.py` (Python 3.13, standard library
+[![make.fun](https://make.fun/badge/btc-cent-forecast-01.svg)](https://make.fun/bounty/btc-cent-forecast-01)
+[![rank](https://make.fun/badge/btc-cent-forecast-01/unot58/makefun-btc-forecast/rank.svg)](https://make.fun/bounty/btc-cent-forecast-01)
+[![reward](https://make.fun/badge/btc-cent-forecast-01/unot58/makefun-btc-forecast/reward.svg)](https://make.fun/bounty/btc-cent-forecast-01)
+
+Entry for [make.fun's "Forecast Bitcoin's price 4 hours ahead, 12 times over
+48 hours"](https://make.fun/bounty/btc-cent-forecast-01) ($250). One program, `main.py` (Python 3.13, standard library
 only), reads each case's 4,320 one-minute BTC closes (72 hours up to the
 checkpoint) and writes one guess: the price 240 minutes after the checkpoint.
 
